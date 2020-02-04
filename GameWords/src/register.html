@@ -1,0 +1,111 @@
+<html lang="ru_RU">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!--===============================================================================================-->
+    <link rel="icon" type="image/png" href="/ReceptionEnrolleeProject/resources/img/icons/favicon.ico">
+<!--===============================================================================================-->  
+    <link rel="stylesheet" href="/ReceptionEnrolleeProject/resources/css/login_style.css">
+<!--===============================================================================================-->  
+    <script src="/ReceptionEnrolleeProject/resources/js/jquery-3.4.1.js"></script>
+<!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="/ReceptionEnrolleeProject/resources/vendor/bootstrap/css/bootstrap.min.css">
+<!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="/ReceptionEnrolleeProject/resources/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="/ReceptionEnrolleeProject/resources/fonts/Linearicons-Free-v1.0.0/icon-font.min.css">
+<!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="/ReceptionEnrolleeProject/resources/vendor/animate/animate.css">
+<!--===============================================================================================-->  
+    <link rel="stylesheet" type="text/css" href="/ReceptionEnrolleeProject/resources/vendor/css-hamburgers/hamburgers.min.css">
+<!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="/ReceptionEnrolleeProject/resources/vendor/select2/select2.min.css">
+<!--===============================================================================================-->
+    <link rel="stylesheet" href="/ReceptionEnrolleeProject/resources/css/login_style.css">
+<!--===============================================================================================-->
+    <title>
+        Авторизация
+    </title>
+</head>
+<body>
+    <div class="container">
+        <div class="container-login">
+            <div class="choosed-lang">
+                <form class="form-selected-lang">
+
+                    <select id="language" name="language" onchange="submit()">
+                        <option value="en_US" >English</option>
+                        <option value="ru_RU" selected>Russian</option>
+                        <option value="be_BY" >Belarussian</option>
+                    </select>
+                </form>
+            </div>
+
+            <div class="wrap-login p-l-50 p-r-50 p-t-77 p-b-30">
+                <form name="loginForm" method="POST" action="controller" class="login-form validate-form">
+                    <input type="hidden" name="command" value="login"/>
+                    <span class="login-form-title p-b-55">
+                        Логин
+                    </span>
+
+                    <div class="wrap-input validate-input m-b-16" data-validate = "Valid username is required: ex@abc.xyz">
+                        <label for="login"></label>
+                        <input class="input" id="login" type="text" name="login" placeholder="Имя пользователя"/>
+                        <span class="focus-input"></span>
+                        <span class="symbol-input">
+                            <span class="lnr lnr-envelope"></span>
+                        </span>
+                    </div>
+
+
+                    <div class="wrap-input validate-input m-b-16" data-validate = "Password is required">
+                        <label for="password"></label>
+                        <input class="input" id="password" type="password" name="password" placeholder="Пароль"/>
+                        <span class="focus-input"></span>
+                        <span class="symbol-input">
+                            <span class="lnr lnr-lock"></span>
+                        </span>
+                    </div>
+
+                    <div class="sys-error">
+                        <p></p>
+                        <p></p>
+                        <p></p>
+                    </div>
+                    
+                    <div class="container-login-form-btn p-t-25">
+                        <button class="login-form-btn">
+                            Авторизоваться
+                        </button>
+                    </div>
+                </form>
+
+
+
+
+
+
+
+
+
+
+                <h4>
+                    
+                    <a href="/ReceptionEnrolleeProject/controller?command=goToRegister">Зарегистрироваться</a>
+                </h4>
+            </div>
+        </div>
+    </div>
+
+<!--===============================================================================================-->  
+    <script src="/ReceptionEnrolleeProject/resources/vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+    <script src="/ReceptionEnrolleeProject/resources/vendor/bootstrap/js/popper.js"></script>
+    <script src="/ReceptionEnrolleeProject/resources/vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+    <script src="/ReceptionEnrolleeProject/resources/vendor/select2/select2.min.js"></script>
+<!--===============================================================================================-->
+    <script src="/ReceptionEnrolleeProject/resources/js/login.js"></script>
+<!--===============================================================================================-->   
+</body>
+</html>
