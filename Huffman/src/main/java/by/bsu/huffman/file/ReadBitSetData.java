@@ -12,8 +12,8 @@ import org.apache.log4j.Level;
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
 
-
 public class ReadBitSetData {
+
     private static final Logger logger = LogManager.getLogger(ReadBitSetData.class);
 
     private String path;

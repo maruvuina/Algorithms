@@ -4,10 +4,15 @@ import java.io.Serializable;
 import java.util.Comparator;
 
 public class Node implements Serializable {
+
     private static final long serialVersionUID = 469653588644793755L;
+
     char data;
+
     int frequency;
+
     Node left;
+
     Node right;
 
     Node(char data, int frequency) {

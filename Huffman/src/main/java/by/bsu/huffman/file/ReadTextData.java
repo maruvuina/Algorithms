@@ -1,6 +1,10 @@
 package by.bsu.huffman.file;
 
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
 import java.nio.charset.StandardCharsets;
 import java.util.Objects;
 
@@ -9,6 +13,7 @@ import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
 
 public class ReadTextData {
+
     private static final Logger logger = LogManager.getLogger(ReadTextData.class);
 
     private static final String DEFAULT_FILE_EXTENSION = ".txt";

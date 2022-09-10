@@ -1,12 +1,15 @@
 package by.bsu.huffman.file;
 
-import java.io.*;
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+import java.io.IOException;
 
 import org.apache.log4j.Level;
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
 
 public class WriteTextData {
+
     private static final Logger logger = LogManager.getLogger(WriteTextData.class);
 
     private String path;

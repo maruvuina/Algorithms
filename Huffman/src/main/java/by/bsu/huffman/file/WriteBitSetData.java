@@ -2,7 +2,10 @@ package by.bsu.huffman.file;
 
 import by.bsu.huffman.entity.Node;
 
-import java.io.*;
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.ObjectOutputStream;
 import java.util.BitSet;
 
 import org.apache.log4j.Level;
@@ -10,6 +13,7 @@ import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
 
 public class WriteBitSetData {
+
     private static final Logger logger = LogManager.getLogger(WriteBitSetData.class);
 
     private String path;

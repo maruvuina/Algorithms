@@ -4,6 +4,7 @@ import java.util.BitSet;
 import java.util.Map;
 
 public class BitSetData {
+
     private String text;
 
     public BitSetData(String text) {
