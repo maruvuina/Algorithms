@@ -3,6 +3,7 @@ package by.bsu.olymbipartite.bipartite;
 import java.util.LinkedList;
 
 public class BipartiteGraph {
+
     public boolean isBipartite(int [][]graph, int startVertex) {
         int numberOfVertices = graph.length;
         int []visitedArray = new int[numberOfVertices];

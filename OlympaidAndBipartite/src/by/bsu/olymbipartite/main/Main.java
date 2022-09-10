@@ -6,6 +6,7 @@ import by.bsu.olymbipartite.print.OutputMatrix;
 import by.bsu.olymbipartite.util.MatrixUtil;
 
 public class Main {
+
     public static void main(String[] args) {
         BipartiteGraph bipartiteGraph = new BipartiteGraph();
         int [][]graph = MatrixUtil.getSquareMatrix(5);

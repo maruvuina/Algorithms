@@ -1,6 +1,7 @@
 package by.bsu.olymbipartite.olympiad;
 
 public class Olympiad {
+
     public int canMeet(int[][] matrix) {
         int maxFamiliarPeople = becomeAcquainted(matrix);
         int countOfMeeting;

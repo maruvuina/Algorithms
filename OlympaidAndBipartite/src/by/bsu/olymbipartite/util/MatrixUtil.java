@@ -1,6 +1,7 @@
 package by.bsu.olymbipartite.util;
 
 public class MatrixUtil {
+
     public static int[][] getSquareMatrix(int dimension) {
         int[][] matrix = createSquareMatrix(dimension);
         initializeSquareMatrix(matrix);
