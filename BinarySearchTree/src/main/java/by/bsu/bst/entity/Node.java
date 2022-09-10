@@ -1,11 +1,16 @@
 package by.bsu.bst.entity;
 
 public class Node {
-    int data;
-    int height;
-    Node left;
-    Node right;
-    Node(int data) {
+
+    public int data;
+
+    public int height;
+
+    public Node left;
+
+    public Node right;
+
+    public Node(int data) {
         this.data = data;
         this.left = null;
         this.right = null;

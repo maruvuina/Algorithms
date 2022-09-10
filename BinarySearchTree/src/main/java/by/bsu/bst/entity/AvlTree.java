@@ -1,7 +1,7 @@
 package by.bsu.bst.entity;
 
-
 public class AvlTree {
+
     private Node root;
 
     public Node getRoot() {

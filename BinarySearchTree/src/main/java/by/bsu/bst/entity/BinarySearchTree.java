@@ -1,8 +1,11 @@
 package by.bsu.bst.entity;
 
-import java.util.*;
+import java.util.LinkedList;
+import java.util.Objects;
+import java.util.Queue;
 
 public class BinarySearchTree {
+
     private Node root;
 
     public BinarySearchTree() {}

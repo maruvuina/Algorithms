@@ -1,10 +1,11 @@
 package by.bsu.bst.random;
 
+import java.util.HashSet;
+
 import by.bsu.bst.util.RandomUtil;
 
-import java.util.*;
-
 public class RandomGenerator {
+
     public int[] generateRandomArray(int arrSize) {
         int[] arr = new int[arrSize];
         HashSet<Integer> used = new HashSet<>();

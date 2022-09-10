@@ -7,7 +7,6 @@ import by.bsu.bst.entity.TreeTraversal;
 import by.bsu.bst.print.OutputData;
 import by.bsu.bst.random.RandomGenerator;
 
-
 public class Main {
     public static void main(String[] args) {
        RandomGenerator random = new RandomGenerator();
