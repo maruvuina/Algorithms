@@ -1,6 +1,9 @@
 package by.bsu.searchalgorithms.util;
 
 public class SortUtil {
+
+    private SortUtil() {}
+
     public static void swap(int []arr, int i, int j) {
         int temp = arr[i];
         arr[i] = arr[j];

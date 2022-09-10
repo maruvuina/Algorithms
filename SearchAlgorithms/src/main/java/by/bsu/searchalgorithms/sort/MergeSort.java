@@ -1,6 +1,7 @@
 package by.bsu.searchalgorithms.sort;
 
 public class MergeSort {
+
     private void fillArrayPart(int[] arr, int[] fillingArr, int tempArraySize,
                                   int index, int indexOfMergedSubarr) {
         while (index < tempArraySize) {

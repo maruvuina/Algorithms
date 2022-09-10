@@ -1,6 +1,7 @@
 package by.bsu.searchalgorithms.search;
 
 public class InterpolationSearch {
+
     private int search(int[] arr, int x) {
         int finded = -1;
         int right = 0;

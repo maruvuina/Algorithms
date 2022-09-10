@@ -1,6 +1,7 @@
 package by.bsu.searchalgorithms.sort;
 
 public class InsertionSort {
+
     public void insertionSort(int []arr) {
         if (arr == null) {
             return;

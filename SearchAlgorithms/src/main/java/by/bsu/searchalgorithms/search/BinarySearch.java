@@ -1,6 +1,7 @@
 package by.bsu.searchalgorithms.search;
 
 public class BinarySearch {
+
     public int binarySearch(int[] arr, int left, int right, int x) {
         if(right >= left) {
             int middle = (left + right) / 2;

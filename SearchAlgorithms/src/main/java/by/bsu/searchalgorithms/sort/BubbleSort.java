@@ -1,6 +1,7 @@
 package by.bsu.searchalgorithms.sort;
 
 public class BubbleSort {
+
     public void bubbleSort(int []arr) {
         if (arr == null) {
             return;
