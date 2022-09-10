@@ -7,6 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class RivestShamirAdleman {
+
     private static final String CHARACTERS = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789 ,!?:;.";
 
     private long p;

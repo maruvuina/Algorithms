@@ -3,6 +3,7 @@ package by.bsu.rsa.algorithm;
 import by.bsu.rsa.action.MathHelp;
 
 public class Crack {
+
     private boolean isSquare(long n) {
         long squareNumber = (long) Math.sqrt(n);
         return squareNumber * squareNumber == n || (squareNumber + 1) * (squareNumber + 1) == n;

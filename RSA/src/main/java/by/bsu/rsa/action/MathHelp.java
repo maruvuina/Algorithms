@@ -3,6 +3,7 @@ package by.bsu.rsa.action;
 import java.math.BigInteger;
 
 public class MathHelp {
+
     public static long getGreatestCommonDenominator(long a, long b) {
         if (a < b) {
             long tmp = a;

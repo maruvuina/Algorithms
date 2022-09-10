@@ -6,6 +6,7 @@ import by.bsu.rsa.algorithm.RivestShamirAdleman;
 import java.util.List;
 
 public class Main {
+
     public static void main(String[] args) {
         long p = 100003;
         long q = 100019;
