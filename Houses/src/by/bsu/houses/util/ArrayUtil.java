@@ -1,6 +1,7 @@
 package by.bsu.houses.util;
 
 public class ArrayUtil {
+
     public static int findIndexOfMinimunElement(int[] array) {
         int arrayLenght = array.length;
         int index = 0;

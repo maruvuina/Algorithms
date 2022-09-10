@@ -5,6 +5,7 @@ import by.bsu.houses.print.OutputMatrix;
 import by.bsu.houses.util.MatrixUtil;
 
 public class Main {
+
     public static void main(String[] args) throws Exception {
         int [][]matrix = MatrixUtil.getMatrixOfDistances(6, 12);
         OutputMatrix.printMatrix(matrix);

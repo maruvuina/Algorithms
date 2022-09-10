@@ -6,6 +6,7 @@ import java.util.stream.IntStream;
 import static by.bsu.houses.util.ArrayUtil.findIndexOfMinimunElement;
 
 public class House {
+
     private static final int INFINITY = Integer.MAX_VALUE;
 
     public int getHouseWithMinSummarizeDistanceToOthers(int[][] matrixOfDistances) {

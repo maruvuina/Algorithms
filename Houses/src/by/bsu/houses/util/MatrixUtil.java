@@ -1,6 +1,7 @@
 package by.bsu.houses.util;
 
 public class MatrixUtil {
+
     public static int[][] getMatrixOfDistances(int countOfHouses, int countOfRoads) {
         int[][] matrix = createSquareMatrix(countOfHouses);
         initializeSquareMatrix(matrix, countOfRoads);
