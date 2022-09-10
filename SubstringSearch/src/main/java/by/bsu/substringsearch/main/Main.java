@@ -8,6 +8,7 @@ import by.bsu.substringsearch.algorithm.impl.StandardSubstringSearchImpl;
 import by.bsu.substringsearch.file.ReadTextData;
 
 public class Main {
+
     public static void main(String[] args) {
         ReadTextData readTextData = new ReadTextData("data", "WarAndPeace");
         String text = readTextData.readFromFile();

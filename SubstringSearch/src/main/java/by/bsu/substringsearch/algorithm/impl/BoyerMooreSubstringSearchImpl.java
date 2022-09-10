@@ -3,10 +3,15 @@ package by.bsu.substringsearch.algorithm.impl;
 import by.bsu.substringsearch.algorithm.SubstringSearch;
 
 public class BoyerMooreSubstringSearchImpl implements SubstringSearch {
+
     private static final int COUNT_OF_SYMBOLS = 256;
+
     private static final int DIFFERENCE_FOR_FIRST_PART_OF_ASCII_SYMBOLS = 912;
+
     private static final int DIFFERENCE_FOR_SECOND_PART_OF_ASCII_SYMBOLS = 864;
+
     private static final int FIRST_ASCII_BORDER = 176;
+
     private static final int SECOND_ASCII_BORDER = 223;
 
     private int changeSymbol(int symbol) {

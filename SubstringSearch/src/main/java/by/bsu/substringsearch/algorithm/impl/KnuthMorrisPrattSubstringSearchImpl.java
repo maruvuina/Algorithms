@@ -3,6 +3,7 @@ package by.bsu.substringsearch.algorithm.impl;
 import by.bsu.substringsearch.algorithm.SubstringSearch;
 
 public class KnuthMorrisPrattSubstringSearchImpl implements SubstringSearch {
+
     @Override
     public int doAlgorithm(String text, String word) {
         int textLength = text.length();
