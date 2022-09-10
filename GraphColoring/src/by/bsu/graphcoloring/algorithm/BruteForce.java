@@ -5,9 +5,13 @@ import java.util.HashSet;
 import java.util.List;
 
 public class BruteForce {
+
     private int [][] adjacencyMatrix;
+
     private int verticesCount;
+
     private int chromaticNumber;
+
     private List<Integer> colorsOfVertices;
 
     public BruteForce(int[][] adjacencyMatrix) {

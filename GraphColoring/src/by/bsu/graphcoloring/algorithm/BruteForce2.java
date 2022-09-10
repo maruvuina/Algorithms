@@ -5,9 +5,13 @@ import java.util.HashSet;
 import java.util.List;
 
 public class BruteForce2 {
+
     private int [][] graph;
+
     private int numberOfVertices;
+
     public int chromaticNumber;
+
     private List<Integer> colorsOfVertices;
 
     public BruteForce2(int[][] graph) {

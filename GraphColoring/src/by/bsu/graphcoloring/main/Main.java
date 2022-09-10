@@ -5,6 +5,7 @@ import algorithm.DSatur;
 import algorithm.GreedyIndependentSets;
 
 public class Main {
+
     public static void main(String[] args) {
         int[][] adjacencyMatrix = {
                 { 0, 1, 1, 0, 0},
