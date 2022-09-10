@@ -1,6 +1,9 @@
 package entity;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 public class Platforms {
     public Map<Integer, List<Integer>> getPlatformsEnergyWithPath(int platformCount, int []height) {

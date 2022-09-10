@@ -8,25 +8,28 @@ import print.PrintData;
 import java.util.Scanner;
 
 public class Main {
+
     public static void main(String[] args) {
-//        int lengthOfStaircase = 3;
-//        int step = lengthOfStaircase - 1;
-//        System.out.println("Staircase: " + new Staircase(lengthOfStaircase)
-//                .getCountOfStaircaseClimbWays(lengthOfStaircase, step));
-//        int [][]matrix = {
-//                {0, 0, 1, 0},
-//                {0, 1, 1, 0},
-//                {0, 1, 1, 1}};
-//        System.out.println("Area of maximum rectangle: " + new MaximumRectangle().maximumRectangle(matrix));
-//        Scanner scan = new Scanner(System.in);
-//        System.out.print("Enter count of platforms: ");
-//        int n = scan.nextInt();
-//        int []height = new int[n + 1];
-//        for(int i = 1; i <= n; i++) {
-//            System.out.print("Enter platforms height: ");
-//            height[i] = scan.nextInt();
-//        }
-//        System.out.println(new Platforms().getPlatformsEnergyWithPath(n, height).toString());
+        int lengthOfStaircase = 3;
+        int step = lengthOfStaircase - 1;
+        System.out.println("Staircase: " + new Staircase(lengthOfStaircase)
+                .getCountOfStaircaseClimbWays(lengthOfStaircase, step));
+        int [][]matrix = {
+                {0, 0, 1, 0},
+                {0, 1, 1, 0},
+                {0, 1, 1, 1}};
+        System.out.println("Area of maximum rectangle: " + new MaximumRectangle().maximumRectangle(matrix));
+        Scanner scan = new Scanner(System.in);
+        System.out.print("Enter count of platforms: ");
+        int n = scan.nextInt();
+        int []height = new int[n + 1];
+        for(int i = 1; i <= n; i++) {
+            System.out.print("Enter platforms height: ");
+            height[i] = scan.nextInt();
+        }
+        System.out.println(new Platforms().getPlatformsEnergyWithPath(n, height).toString());
+
+
         int dim = 6;
         int []cost = new int[dim];
         cost[1] = 5;

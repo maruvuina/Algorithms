@@ -1,6 +1,7 @@
 package entity;
 
 public class Staircase {
+
     private int []countOfWays;
 
     public Staircase(int length) {

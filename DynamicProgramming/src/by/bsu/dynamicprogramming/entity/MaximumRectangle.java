@@ -1,8 +1,7 @@
 package entity;
 
-import java.util.Arrays;
-
 public class MaximumRectangle {
+
     public int maximumRectangle(int [][]matrix) {
         int rows = matrix.length;
         int columns = matrix[0].length;
