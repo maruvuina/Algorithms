@@ -7,6 +7,7 @@ import by.bsu.primandkruskal.graph.Graph;
 import java.util.List;
 
 public class Main {
+
     public static void main(String[] args) {
         int countOfVertices = 1000;
         List<Edge> edges = GraphCreator.createGraphForKruskalAlgorithm(countOfVertices);

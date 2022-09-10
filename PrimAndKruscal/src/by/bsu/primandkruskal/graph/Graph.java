@@ -1,10 +1,18 @@
 package by.bsu.primandkruskal.graph;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Comparator;
+import java.util.List;
+import java.util.PriorityQueue;
+import java.util.Queue;
 
 public class Graph {
+
     private static final int MINIMUM = Integer.MAX_VALUE;
+
     private int countOfVertices;
+
     private List<Edge> edges;
 
     public Graph(int countOfVertices) {

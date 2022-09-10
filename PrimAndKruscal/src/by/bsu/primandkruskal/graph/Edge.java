@@ -1,8 +1,11 @@
 package by.bsu.primandkruskal.graph;
 
 public class Edge implements Comparable<Edge> {
+
     int firstVertex;
+
     int secondVertex;
+
     int weight;
 
     public Edge(int firstVertex, int secondVertex, int weight) {

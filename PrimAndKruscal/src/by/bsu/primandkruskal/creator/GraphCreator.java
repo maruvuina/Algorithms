@@ -9,6 +9,7 @@ import static by.bsu.primandkruskal.util.MatrixUtil.createSquareMatrix;
 import static by.bsu.primandkruskal.util.MatrixUtil.initializeMatrix;
 
 public class GraphCreator {
+
     public static int[][] createGraphForPrimAlgorithm(int countOfVertices) {
         int[][] graph = createSquareMatrix(countOfVertices);
         initializeMatrix(graph);

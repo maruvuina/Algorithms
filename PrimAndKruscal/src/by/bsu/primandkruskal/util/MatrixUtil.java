@@ -1,6 +1,7 @@
 package by.bsu.primandkruskal.util;
 
 public class MatrixUtil {
+
     public static int[][] createSquareMatrix(int size) {
         int[][] squareMatrix = new int[size][];
         for (int i = 0; i < squareMatrix.length; i++) {
