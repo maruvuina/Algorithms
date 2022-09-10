@@ -4,10 +4,15 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class LinearProbingHashTable<K, V> {
+
     private static final int INITIAL_CAPACITY = 8;
+
     private static final double LOAD_FACTOR = 0.65;
+
     private int capacity;
+
     private int size;
+
     private List<Node<K, V>> table;
 
     public LinearProbingHashTable() {

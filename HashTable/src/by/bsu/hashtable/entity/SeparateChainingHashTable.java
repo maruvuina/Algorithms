@@ -4,10 +4,15 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class SeparateChainingHashTable<K, V> {
+
     private static final int INITIAL_CAPACITY = 8;
+
     private static final double LOAD_FACTOR = 0.65;
+
     private int size;
+
     private int bucketSize;
+
     private List<Node<K, V>> table;
 
     public SeparateChainingHashTable() {
