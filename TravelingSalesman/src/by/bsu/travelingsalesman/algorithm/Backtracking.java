@@ -6,12 +6,19 @@ import java.util.Collections;
 import java.util.List;
 
 public class Backtracking {
+
     private static final int MINIMUM = Integer.MAX_VALUE;
+
     private int[][] weightMatrix;
+
     private int verticesCount;
+
     private int minimumWeight;
+
     private boolean []visitedVertices;
+
     private List<List<Integer>> possiblePaths;
+
     private int iteration;
 
     public Backtracking(int[][] weightMatrix) {

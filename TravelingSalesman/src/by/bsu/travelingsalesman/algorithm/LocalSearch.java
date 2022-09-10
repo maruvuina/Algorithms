@@ -1,10 +1,15 @@
 package algorithm;
 
 public class LocalSearch {
+
     private int[][] weightMatrix;
+
     private int verticesCount;
+
     private int minimumWeight;
+
     private int[] possiblePath;
+
     private int iteration;
 
     public LocalSearch(int[][] weightMatrix) {

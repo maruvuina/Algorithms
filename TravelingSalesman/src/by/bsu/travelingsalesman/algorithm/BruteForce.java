@@ -1,12 +1,19 @@
 package algorithm;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
 
 public class BruteForce {
+
     private static final int MINIMUM = Integer.MAX_VALUE;
+
     private int[][] weightMatrix;
+
     private int verticesCount;
+
     private int minimumWeight;
+
     private List<List<Integer>> possiblePaths;
 
     private int iteration;

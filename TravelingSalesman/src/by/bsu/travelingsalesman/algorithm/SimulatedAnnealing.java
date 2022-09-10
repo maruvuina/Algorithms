@@ -6,12 +6,19 @@ import java.util.List;
 import java.util.Random;
 
 public class SimulatedAnnealing {
+
     private static final double MINIMUM_TEMPERATURE = 1.0;
+
     private static final double MAXIMUM_TEMPERATURE = 1000.0;
+
     private static final double COOLING_RATE = 0.002;
+
     private int[][] weightMatrix;
+
     private int minimumWeight;
+
     private List<Integer> possiblePath;
+
     private int iteration;
 
     public SimulatedAnnealing(int[][] weightMatrix) {

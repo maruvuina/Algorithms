@@ -1,10 +1,15 @@
 package main;
 
-import algorithm.*;
-
 import java.util.Arrays;
 
+import algorithm.Backtracking;
+import algorithm.BruteForce;
+import algorithm.Greedy;
+import algorithm.LocalSearch;
+import algorithm.SimulatedAnnealing;
+
 public class Main {
+
     public static void main(String[] args) {
         int [][]weightMatrix = {
                 {0,  2,  1,  40, 1,  8, 3,  13, 56, 3, 12, 40, 1},

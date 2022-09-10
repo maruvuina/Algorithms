@@ -3,11 +3,17 @@ package algorithm;
 import java.util.LinkedList;
 
 public class Greedy {
+
     private static final int MINIMUM = Integer.MAX_VALUE;
+
     private int[][] weightMatrix;
+
     private int verticesCount;
+
     private int minimumWeight;
+
     private LinkedList<Integer> vertices;
+
     private int iteration;
 
     public Greedy(int[][] weightMatrix) {
