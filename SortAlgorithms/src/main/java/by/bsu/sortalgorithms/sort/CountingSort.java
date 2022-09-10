@@ -1,6 +1,7 @@
 package by.bsu.sortalgorithms.sort;
 
 public class CountingSort {
+
     private int getMaxValue(int[] numbers){
         int maxValue = numbers[0];
         for(int i = 1; i < numbers.length; i++){

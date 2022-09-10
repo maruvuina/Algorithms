@@ -2,9 +2,10 @@ package by.bsu.sortalgorithms.main;
 
 import by.bsu.sortalgorithms.print.OutputData;
 import by.bsu.sortalgorithms.random.RandomGenerator;
-import by.bsu.sortalgorithms.sort.*;
+import by.bsu.sortalgorithms.sort.CountingSort;
 
 public class Main {
+
     public static void main(String[] args) {
         int base = 2;
         int exponent = 8;

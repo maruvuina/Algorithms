@@ -3,6 +3,9 @@ package by.bsu.sortalgorithms.sort;
 import by.bsu.sortalgorithms.util.SortUtil;
 
 public class QuickSort {
+
+    private QuickSort() {}
+
     private void sort(int[] arr, int left, int right) {
         if (left < right) {
             int q = findQ(arr, left, right);

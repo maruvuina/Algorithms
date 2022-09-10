@@ -5,6 +5,7 @@ import java.util.List;
 import java.util.Random;
 
 public class RandomGenerator {
+
     public int[] generateRandomArray(int arrSize) {
         int[] arr = new int[arrSize];
         Random random = new Random();

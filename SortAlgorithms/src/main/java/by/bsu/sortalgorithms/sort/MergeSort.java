@@ -1,6 +1,9 @@
 package by.bsu.sortalgorithms.sort;
 
 public class MergeSort {
+
+    private MergeSort() {}
+
     private void fillArrayPart(int[] arr, int[] fillingArr, int tempArraySize,
                                   int index, int indexOfMergedSubarr) {
         while (index < tempArraySize) {

@@ -3,6 +3,9 @@ package by.bsu.sortalgorithms.sort;
 import by.bsu.sortalgorithms.util.SortUtil;
 
 public class HybridSort {
+
+    private HybridSort() {}
+
     private void insertionSort(int []arr, int left, int right) {
         for (int i = left + 1; i <= right; i++) {
             int curr = arr[i];
