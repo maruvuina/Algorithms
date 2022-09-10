@@ -1,6 +1,10 @@
 package by.bsu.gamewords.file;
 
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
 import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 import java.util.List;
@@ -11,6 +15,7 @@ import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
 
 public class ReadData {
+
     private static final Logger logger = LogManager.getLogger(ReadData.class);
 
     private static final String DIR_NAME = "data";

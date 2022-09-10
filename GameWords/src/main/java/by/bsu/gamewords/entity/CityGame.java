@@ -4,7 +4,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class CityGame {
+
     private static boolean flag = false;
+
     private static List<String> traversalArray = new ArrayList<>();
 
     public static List<String> getCycleOfWords(List<String> givenArray) {
