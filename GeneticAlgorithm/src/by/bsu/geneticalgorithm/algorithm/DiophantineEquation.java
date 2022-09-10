@@ -2,10 +2,13 @@ package by.bsu.geneticalgorithm.algorithm;
 
 import by.bsu.geneticalgorithm.mathhelp.MathHelp;
 
-import static by.bsu.geneticalgorithm.algorithm.AlgorithmConstants.*;
+import static by.bsu.geneticalgorithm.algorithm.AlgorithmConstants.COUNT_OF_POPULATION;
+import static by.bsu.geneticalgorithm.algorithm.AlgorithmConstants.COUNT_OF_VALUES;
+import static by.bsu.geneticalgorithm.algorithm.AlgorithmConstants.MAXIMUM_ITERATIONS;
 
 public class DiophantineEquation {
     private Individual []population;
+
     private int countOfIterations;
 
     public DiophantineEquation() {

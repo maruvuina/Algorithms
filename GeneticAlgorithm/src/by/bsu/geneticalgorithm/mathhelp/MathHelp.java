@@ -3,6 +3,7 @@ package by.bsu.geneticalgorithm.mathhelp;
 import java.util.Random;
 
 public class MathHelp {
+
     public static double getRandomDouble(double min, double max) {
         return (double) (Math.random() * max + min);
     }

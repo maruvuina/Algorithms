@@ -2,11 +2,16 @@ package by.bsu.geneticalgorithm.algorithm;
 
 import by.bsu.geneticalgorithm.mathhelp.MathHelp;
 
-import static by.bsu.geneticalgorithm.algorithm.AlgorithmConstants.*;
+import static by.bsu.geneticalgorithm.algorithm.AlgorithmConstants.COUNT_OF_VALUES;
+import static by.bsu.geneticalgorithm.algorithm.AlgorithmConstants.MUTATION_PROBABILITY;
+import static by.bsu.geneticalgorithm.algorithm.AlgorithmConstants.TARGET_VALUE_OF_FUNCTION;
 
 public class Individual {
+
     private int []genes;
+
     private double fitness;
+
     private double probability;
 
     public Individual() {
