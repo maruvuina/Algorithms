@@ -1,11 +1,17 @@
 package by.bsu.maxbipartite.entity;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 public class BiGraph {
+
     private List<List<Edge>> edgesSet;
+
     private int countOfVertex;
+
     private Edge[] egesPossibleForMatching;
+
     private int maxFlow;
 
     public BiGraph(int countOfVertex){

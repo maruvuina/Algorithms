@@ -1,10 +1,15 @@
 package by.bsu.maxbipartite.entity;
 
 public class Edge {
+
     private static final int DEFAULY_EDGE_CAPACITY = 1;
+
     private int startVertex;
+
     private int endVertex;
+
     private int capacity;
+
     private int flow;
 
     public Edge(int startVertex, int endVertex){
